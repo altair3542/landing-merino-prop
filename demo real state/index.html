@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Maqueta demo</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">
+            Merino Hermanos <i class='bx bxs-home-alt-2'></i>
+          </a>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href=" " class="nav__link">
+                        <i class='bx bx-home-alt-2'></i>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">
+                        <i class='bx bx-building-house'></i>
+                        <span>Viviendas</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#Value" class="nav__link">
+                        <i class='bx bx-award'></i>
+                        <span>Valores</span>
+                    </a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="" class="nav__link">
+                        <i class='bx bx-phone-call'></i>
+                        <span>Contáctanos</span>
+                    </a>
+                </li>
+            </ul>
+          </div>
+
+            <a href="#contact" class="button nav__button">
+                suscribase
+            </a>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="homne__data">
+                    <h1 class="home__title">
+                        Descubre <br> las mejores <br> propiedades
+                    </h1>
+                    <p class="home__description">
+                       Encuentra una gran varidedad de propiedades que cumplan las espectativas que tienes. Olvida las dificultades que tiene encontrar una vivienda ideal para ti. 
+                    </p>
+
+                    <form action="" class="home__search">
+                        <i class='bx bx-map'></i>
+                        <input type="search" placeholder="Buscar por ubicación..." class="home__search-input" >
+                        <button class="button">Buscar</button>      
+                    </form>
+
+                    <div class="home__value">
+                        <h1 class="home__value-number">
+                            9k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            premium <br> product
+                        </span>
+                    </div>
+                    <div class="home__value">
+                        <h1 class="home__value-number">
+                            2k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            Happy <br> Costumers
+                        </span>
+                    </div>
+                    <div class="home__value">
+                        <h1 class="home__value-number">
+                            28k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            Awards <br> Winning
+                        </span>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+                       
+                        <div class="home__img">
+                            <img src="assets/img/home.jpg" alt="">
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="assets/img/logo1.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="assets/img/logo2.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="assets/img/logo3.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="assets/img/logo4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">
+                    Destacado
+                </span>
+                <h2 class="section__title">
+                    Propiedades <br> Populares<span>.</span> </h2>
+            </div>
+
+            <div class="popular__container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular1.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>$</span> 1,500,000,000
+                            </h2>
+                            <h3 class="popular__title">
+                                    Casa en venta
+                            </h3>
+                            <p class="popular__description">
+                                Envigado, Antioquia
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular2.jpg" alt="" class="popular__img">
+                                        
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>$</span> 1,500,000,000
+                            </h2>
+                            <h3 class="popular__title">
+                                Casa en venta
+                            </h3>
+                            <p class="popular__description">
+                                El Retiro, Antioquia
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular3.jpg" alt="" class="popular__img">
+                                                            
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>$</span> 1,500,000,000
+                            </h2>
+                            <h3 class="popular__title">
+                                Casa en venta
+                            </h3>
+                            <p class="popular__description">
+                                Rionegro, Antioquia
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular4.jpg" alt="" class="popular__img">
+                                                                                
+                        <div class="popular__data">
+                             <h2 class="popular__price">
+                                <span>$</span> 1,500,000,000
+                            </h2>
+                            <h3 class="popular__title">
+                                Casa en venta
+                            </h3>
+                            <p class="popular__description">
+                                La Ceja, Antioquia
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular5.jpg" alt="" class="popular__img">
+                        
+                        <div class="popular__data">
+                        <h2 class="popular__price">
+                            <span>$</span> 1,500,000,000
+                        </h2>
+                        <h3 class="popular__title">
+                            Casa en venta
+                        </h3>
+                        <p class="popular__description">
+                            El Poblado, Medellín
+                        </p>
+                    </div>
+                </article>
+                </div>
+                <div class="swiper-button-next">
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class='bx bx-chevron-left'></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VALUE ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__image">
+                    <div class="value__orbe"></div>
+
+                    <div class="value__img">
+                        <img src="assets/img/value.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nuestra propuesta de valor</span>
+                        <h2 class="section__title">
+                            ¿Por qué <br> <span>elegirnos?</span>
+                        </h2>
+                        <p class="value__description">
+                            Siempre estamos listos para ayudarte proveyendo el mejor servicio para ti. <br>
+                            Creemos que un buen lugar para vivir puede mejorar tu vida. 
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-shield-x value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Seguridad
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quisquam, quae.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-x-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                 Rapidez                   
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+                                                
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam, quae.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                   Confianza                                     
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+                                                                        
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quisquam, quae.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-check-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Experiencia                                                           
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+                                                                                                
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Quisquam, quae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img">
+                       <img src="assets/img/contact.png" alt=""> 
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contactenos.</span>
+                        <h2 class="section__title">
+                            ¿Tienes alguna <br> <span>pregunta?</span></h2>
+                        <p class="contact__description">
+                            ¿Tienes algun problema encontrando la propiedad que deseas?
+                            <br>
+                            ¿Necesitas ayuda en la compra de tu propiedad?
+                            <br>
+                            ¿Necesitas ayuda en la venta de tu propiedad?
+                            <br>
+                            ¿Necesitas ayuda en la administración de tu propiedad?
+                            <br>
+                            <br>
+                            <br>
+                            Contactanos.
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                           <div class="contact__card-info">
+                                 <i class='bx bx-phone-call'></i>
+                            <div>
+                                <h3 class="contact__card-title">
+                                    Llamanos
+                                </h3>
+                                <p class="contact__card-description">
+                                    +57 300 000 0000
+                                </p>
+                            </div>
+                           </div>
+                           
+                           <button class="button contact__card-button">
+                                <a href="tel:+573003000000">Llamanos</a>
+                           </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-whatsapp'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Dejenos un whatsapp        
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +57 300 000 0000
+                                    </p>
+                                </div>
+                            </div>
+                                                
+                            <button class="button contact__card-button">
+                                <a href="https://wa.me/573197381776">WhatsApp</a>
+                            </button>
+                        </div>
+                                                
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-facebook-circle'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                     Visitanos en Facebook           
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        Merino Hermanos
+                                    </p>
+                                </div>
+                            </div>
+                                                
+                            <button class="button contact__card-button">
+                                <a href="https://www.facebook.com/MerinoHermanos" target="_blank">Facebook</a>
+                            </button>
+                        </div>
+                                                
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-instagram'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                      Siguenos en Instagram          
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        Merino Hermanos
+                                    </p>
+                                </div>
+                            </div>
+                                                
+                            <button class="button contact__card-button">
+                                <a href="https://www.instagram.com/merinohermanos/" target="_blank">Instagram</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
